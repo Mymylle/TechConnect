@@ -1,0 +1,298 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    
+    background-color: rgb(213, 220, 175);
+    
+}
+#banner{
+    width: 100%;
+    height: 300px;
+    margin-left: 0px;
+    
+}
+
+header{
+    text-align: center;
+    font-family: Optima, sans-serif;
+    color: rgb(255, 248, 248);
+}
+
+header h1{
+    font-size: 40px;
+
+}
+
+header h5{
+    font-weight:lighter;
+    font-style: italic;
+}
+
+hr{
+    border: thin solid rgb(111, 221, 183);
+    height: 1px;
+    background-color: rgb(111, 221, 183);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: Candara, sans-serif;
+    font-weight: bold;
+    margin: 25px;
+}
+nav ul{
+    padding: 1px;
+    margin: 2px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px;
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+a :active{
+    color: gray;
+}
+
+a :visited{
+    color: gray;
+}
+
+a :hover{
+    color: rgba(55, 197, 145, 0.975);
+}
+
+.titulo1{
+    font-size: 35px;
+    color: whitesmoke;
+    display: inline-block;
+    border: 5px double rgb(111, 221, 183);
+    border-top: none;
+    border-right: none ;
+    padding-left: 7px;
+    margin-left: 14px ;
+    margin-top: 85px;
+    
+}
+
+.texto1{
+    display:inline-block;
+    font-family: Optima, sans-serif ;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    line-height: 40px;
+
+    border-left: 2px solid rgb(111, 221, 183);
+    padding-left: 10px;
+    margin-left: 4px;
+    margin-bottom: 150px;
+    
+}
+
+article{
+    color: whitesmoke;
+    text-align: center;
+}
+
+article h2{
+    display: inline-block;
+    font-size: 33px;
+    border-bottom: 2px outset rgb(111, 221, 183);
+    padding-left: 7px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+
+article h3{
+    font-weight: bold;
+    font-size: 23px;
+    margin: 40px;
+}
+
+article p{
+    font-family: Candara ;
+    font-size: 19px;
+    margin: 55px;
+    
+}
+
+
+.left{
+    text-align: left;
+    border-left: 2px solid rgb(111, 221, 183);
+    padding-left: 15px;
+    margin-left: 35px;
+    
+}
+
+
+.right{
+    text-align: right;
+    border-right: 2px solid rgb(111, 221, 183);
+    padding-right: 10px;
+    margin-right: 35px ;
+
+}
+
+.lefth3{
+    text-align: left;
+    display: block;
+    border-left: 5px double rgb(111, 221, 183);
+    border-bottom: 5px double rgb(111, 221, 183);
+    padding-left: 7px;
+    margin-left: 50px ;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.righth3{
+    text-align: right;
+    display: block;
+    border: 5px double rgb(111, 221, 183);
+    border-top: none;
+    border-left: none ;
+    padding-right: 7px;
+    margin-right: 50px;
+    margin-left: auto;
+    width: fit-content;
+    
+}
+.membros{
+    font-family: Optima, sans-serif ;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 40px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.titulomembros{
+    display: inline-block;
+    font-size: 33px;
+    border-bottom: 2px outset rgb(111, 221, 183);
+    padding-left: 7px;
+    margin: 50px;
+    margin-bottom: 20px;
+    margin-top: 85px;
+    
+}
+
+.nomes{
+    font-size: 20px;
+    color: rgb(158, 247, 225);
+    margin-top: 70px;
+    
+}
+
+.funcao{
+    font-size: 18px;
+}
+
+.linha{
+    text-align: left;
+    background-color: rgb(222, 255, 244);
+    height: 1px;
+    margin: 1px auto;
+    width: 100%;
+    margin-top: 150px;
+}
+
+aside{
+    color: whitesmoke;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.margem1{
+    margin-left: 10px;
+    gap: 5px;
+    line-height: 40px
+
+}
+
+.colunafooter{
+    flex: 1;
+    min-width: 200px;
+    margin: 25px;
+
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: whitesmoke;
+    padding: 20px;
+    gap: 10px;
+}
+
+.redes, .maps{
+    flex: 1 1 100px; 
+}
+
+.redes{
+
+   margin-bottom: 5px;
+   margin-left: 343px;
+   text-decoration: none;
+   line-height: 40px;
+}
+
+.img{
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
+#contato{
+    padding-top: 3px;
+}
+
+.redes a:hover{
+    color: aquamarine;
+}
+
+.maps a:hover{
+    color: aquamarine;
+}
+
+.maps {
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 5px;
+    line-height: 40px;
+    padding-top: 0;
+}
+
+#copyright {
+    flex-basis: 100%;
+    text-align: left;
+    font-size: 13px;
+    opacity: 0.6;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding-bottom: none;
+}
+
+ 
