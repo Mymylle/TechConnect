@@ -5,7 +5,7 @@ html{
 
 body{
     
-    background-color:  rgb(17, 16, 16);;
+    background-color:  rgb(17, 16, 16);
     
 }
 #banner{
@@ -23,7 +23,7 @@ header{
 
 header h1{
     font-size: 40px;
-
+    
 }
 
 header h5{
@@ -35,7 +35,7 @@ hr{
     border: thin solid rgb(111, 221, 183);
     height: 1px;
     background-color: rgb(111, 221, 183);
-
+    
 }
 
 nav{
@@ -87,8 +87,9 @@ a :hover{
     border-top: none;
     border-right: none ;
     padding-left: 7px;
-    margin-left: 14px ;
     margin-top: 85px;
+    margin-left: 80px;
+   
     
 }
 
@@ -97,13 +98,14 @@ a :hover{
     font-family: Optima, sans-serif ;
     text-align: justify;
     margin: 30px;
-    font-size: 20px;
+    font-size: 18px;
     color: whitesmoke;
-    line-height: 40px;
+    line-height: 50px;
 
-    border-left: 2px solid rgb(111, 221, 183);
+   
     padding-left: 10px;
-    margin-left: 4px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 150px;
     
 }
@@ -176,7 +178,7 @@ article p{
     width: fit-content;
     
 }
-.membros{
+.palestrantes{
     font-family: Optima, sans-serif ;
     text-align: center;
     color: whitesmoke;
@@ -187,7 +189,7 @@ article p{
 
 
 
-.titulomembros{
+.titulopalestra{
     display: inline-block;
     font-size: 33px;
     border-bottom: 2px outset rgb(111, 221, 183);
@@ -206,6 +208,10 @@ article p{
 }
 
 .funcao{
+    font-size: 18px;
+}
+
+.biografia{
     font-size: 18px;
 }
 
