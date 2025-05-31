@@ -132,7 +132,6 @@ a :hover{
     font-family: Optima, sans-serif;
     font-size: 18px;
     line-height: 30px;
-    margin
     margin-left: 0;
 }
 
@@ -181,7 +180,7 @@ a :hover{
     color: whitesmoke;
     display: inline-block;
     border-bottom: 5px double rgb(111, 221, 183);
-margin-top: 10px;
+    margin-top: 10px;
     padding-left: 7px;
     margin-left: 88px;
 
@@ -203,6 +202,7 @@ margin-top: 10px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .imgsalvador{
@@ -219,7 +219,7 @@ margin-top: 10px;
     display: flex;
     text-align: right;
     width: 500px;
-    height:200px;
+    height:150px;
     margin-left: auto;
     margin-right: 0;
     color: whitesmoke;
@@ -228,6 +228,7 @@ margin-top: 10px;
 
 .inscricao{
     color: whitesmoke;
+    text-align: center;
     margin-left: 15px;
     line-height: 40px;
 }
@@ -240,10 +241,9 @@ margin-top: 10px;
 .h2inscricao{
     color: rgb(255, 219, 197);
     display: inline-block;
-    border: 5px double rgb(111, 221, 183);
-    border-top: none;
-    border-right: none ;
+    border-bottom: 5px double rgb(111, 221, 183);
     padding-left: 7px;
+    padding-top: 50px;
 }
 
 fieldset{
@@ -271,6 +271,7 @@ input[type=email]{
 
 input[type=radio]{
     padding-right: 90px;
+    margin-left: 24px;
 }
 
 
@@ -293,12 +294,43 @@ input[type=radio]:focus{
 
 input[type=checkbox]{
     outline: none;
-   
-    border-radius: 2px;
+    border-radius: 4px;
     margin-top: 35px;
     
 
 }
+
+
+.termos, .botaoenviar {
+  margin-top: 18px;
+  
+}
+
+
+.botaoenviar input[type="submit"] {
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffb175;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botaoenviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+
+.botaoenviar input[type="submit"]:hover {
+  background-color:#f7bd87 ;
+ 
+
+}
+
 
 #concluido{
     display: inline-block;
@@ -340,7 +372,15 @@ article p{
 }
 
 
+
+
+
+
+
+
+
 .palestrantes{
+
     font-family: Optima, sans-serif ;
     text-align: center;
     color: whitesmoke;
@@ -349,6 +389,33 @@ article p{
     
 }
 
+.divpalestra1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.divpalestra{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 0px 0px 10px rgba(111, 221, 183, 0.4);
+    margin-bottom: 20px;
+
+}
+
+
+
+.funcao{
+    font-size: 18px;
+    line-height: 45px;
+    margin-left: 0;
+    margin-right: auto;
+    
+}
 
 
 .titulopalestra{
@@ -357,7 +424,7 @@ article p{
     border-bottom: 2px outset rgb(111, 221, 183);
     padding-left: 7px;
     margin: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     margin-top: 85px;
     
 }
@@ -369,13 +436,18 @@ article p{
     
 }
 
-.funcao{
-    font-size: 18px;
+.imgperfil{
+    border-radius: solid 50%;
+    width: 300px;
+    height: 350px;
 }
 
-.biografia{
-    font-size: 18px;
-}
+
+
+
+
+
+
 
 .linha{
     text-align: left;
@@ -422,7 +494,7 @@ footer{
 
 .redes{
 
-   margin-bottom: 5px;
+   margin-bottom: 10px;
    margin-left: 343px;
    text-decoration: none;
    line-height: 40px;
