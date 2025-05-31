@@ -250,6 +250,7 @@ fieldset{
     display: inline-block;
     padding-right: 60px ;
     margin-top: 25px;
+    border-color: rgb(37, 220, 180);
 
 }
 
@@ -311,7 +312,7 @@ input[type=checkbox]{
   display: block;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #ffb175;
+  background-color: rgb(37, 220, 180);
   color: white;
   border: none;
   border-radius: 5px;
@@ -413,7 +414,7 @@ article p{
     font-size: 18px;
     line-height: 45px;
     margin-left: 0;
-    margin-right: auto;
+    margin-right: 20px;
     
 }
 
@@ -499,6 +500,7 @@ footer{
    text-decoration: none;
    line-height: 40px;
 }
+
 
 .img{
     margin-left: 8px;
