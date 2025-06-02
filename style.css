@@ -3,6 +3,11 @@ html{
 
 }
 
+
+
+/*CABEÇALHO*/
+
+
 body{
     
     background-color:  rgb(17, 16, 16);
@@ -94,6 +99,12 @@ a :hover{
     
     
 }
+
+
+
+/*EVENTO*/
+
+
 
 .texto1{
     display:inline-block;
@@ -208,6 +219,7 @@ a :hover{
 .imgsalvador{
     display: block;
     text-align: center;
+    border-radius: 15px;
     width: 500px;
     height:250px;
     margin-left: auto;
@@ -218,6 +230,7 @@ a :hover{
 .imgworkplace1{
     display: flex;
     text-align: right;
+    border-radius: 15px;
     width: 500px;
     height:150px;
     margin-left: auto;
@@ -225,6 +238,10 @@ a :hover{
     color: whitesmoke;
 
 }
+
+
+/*INSCRIÇÃO*/
+
 
 .inscricao{
     color: whitesmoke;
@@ -376,6 +393,7 @@ article p{
 
 
 
+/*PALESTRANTES*/
 
 
 
@@ -446,7 +464,7 @@ article p{
 
 
 
-
+/*FOOTER*/
 
 
 
